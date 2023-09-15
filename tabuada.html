@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabuada</title>
+</head>
+<body>
+    <header>
+        <img src="./logo.svg" alt="">
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Qual número você deseja saber a tabuada ? <br>
+                <input id="num1" class="form" type="number">
+            </p>
+            <p>
+                Até qual número você quer ? <br>
+                <input id="num2" class="form" type="number">
+            </p>
+            <p>
+                <input onclick="tabuada()" id="bb" type="button" value="calcular">
+            </p>
+        </div>
+        <div id="resposta">
+            Preencha os valores acima 
+        </div>
+       
+    </section>
+    <script src="funçãotb.js"></script>
+</body>
+</html>
